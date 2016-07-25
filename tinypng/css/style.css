@@ -1,0 +1,22 @@
+.content
+{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+
+.open-block
+{
+    display: block;
+}
+
+body
+{
+    width: 100%;
+    margin: auto;
+}
+
+.content-img
+{
+    display: none;
+}

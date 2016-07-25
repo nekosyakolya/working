@@ -1,0 +1,1121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+}
+
+.clearfix:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body
+{
+    width: 100%;
+    margin: auto;
+}
+
+.header
+{
+    background-image: linear-gradient(to bottom, #fefefe, #eff0f0);
+    width: 100%;
+}
+
+.container
+{
+    width: 980px;
+    margin: auto;
+    padding: 0;
+}
+
+.header .logo
+{
+    padding: 2px 0 0 0;
+    margin: 0 40px 0 0;
+    float: left;
+}
+
+.header .tagline
+{
+    padding: 31px 0 0 0;
+    margin: 0 90px 0 0;
+    float: left;
+}
+
+img
+{
+  min-width: 100%;
+  height: auto;
+}
+
+.header .text
+{
+    width: 160px;
+    font: 12px/17px Tahoma, 'Geneva CY', sans-serif;
+    color: #2a292a;
+    float: left;
+}
+
+.logo_scolkovo
+{
+    margin: 0 54px 0 0;
+    float: left;
+}
+
+.header .contact
+{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.contact .phone
+{
+    color: #343434;
+    text-decoration: none;
+    padding: 0 40px 0 0;
+    margin: 0 0 2px 0;
+    font: bold 16px Tahoma, 'Geneva CY', sans-serif;
+    float: left;
+}
+
+.contact_text
+{
+    color: #646464;
+    font: normal 11px Tahoma, 'Geneva CY', sans-serif;
+}
+
+.contact .accentuation
+{
+    border-bottom: 1px dashed #b5c1cd;
+}
+
+.support_block
+{
+    padding: 22px 0 0 0;
+    float: left;
+}
+
+.catalog
+{
+    float: right;
+    padding: 38px 0 0 0;
+    margin: 0 4px 0 0;
+}
+
+.catalog .button
+{
+    padding: 7px 7px 7px 8px;
+    font: 13px/18px 'Franklin Gothic Book', Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(to bottom, #5574b8, #3c589d) #4a68ac;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 -3px 0 0;
+    box-shadow: 0 2px 3px 0 #646464;
+}
+
+.catalog .button:hover
+{
+    background: linear-gradient(to bottom, #6488d1, #4667b6) #5579c4;
+}
+
+.menu
+{
+    background: #fff;
+    float: left;
+}
+
+.list.menu_main
+{
+    padding: 0 0 0 1px; 
+}
+
+.list
+{
+    overflow: hidden;
+    list-style: none;
+    font: 12px Tahoma, 'Geneva CY', sans-serif;
+    color: #858585;
+}
+
+.list.menu_main> .item:hover .menu_dropdown
+ {
+   display: block;
+}
+
+.menu_dropdown
+{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 15px 15px 5px 15px;
+    border: 1px solid #babdc9;
+    box-shadow: 0 1px 3px 0 #b2b2b2;
+}
+
+.list.menu_main > .item
+{
+    font: 500 14px/18px Tahoma, 'Geneva CY', sans-serif;
+    background: #f4f4f4;
+    margin: 0 1px 0 0;
+    float: left;
+    padding: 0 0 0 2px;
+}
+
+.list.menu_main  > .item > .link
+{
+    text-decoration: none;
+    display: block;
+    color: #343434;
+    padding: 11px 21px 14px 23px;
+    border-bottom: 3px solid #afb2c1;
+}
+
+.list.menu_main > .item.active > .link,
+.list.menu_main > .item:hover > .link
+{
+    border-bottom: 3px solid #b31d27;
+    background: linear-gradient(to bottom, #f4f4f4, #fff);
+}
+
+.element_container
+{
+    padding: 0 0 0 2px;
+    background: linear-gradient(to bottom, #f4f4f4, #e8eae9);
+}
+
+.menu_dropdown > .item .link
+{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    color: #354f71;
+    padding: 9px 10px;
+    display: block;
+}
+
+.menu_dropdown > .item:hover
+{
+    background: #f4f4f4;
+    border-radius: 3px;
+}
+
+.menu_dropdown > .item
+{
+    margin: 0 0 5px 0;
+}
+
+.bar
+{
+    float: right;
+    padding: 14px 0 0 0;
+    margin: 0 1px 0 0;
+    font-family: Tahoma, 'Geneva CY', sans-serif;
+}
+
+.bar .entrance
+{
+    margin: 0 16px 0 0;
+    font-size: 11px;
+    color: #343434;
+    line-height: 17px;
+    float: left;
+}
+
+.bar .entrance:hover,
+.bar .register:hover
+{
+    text-decoration: none;
+}
+
+.bar .user
+{
+    width: 17px;
+    height: 17px;
+    background-position: 0 -45px;
+    margin: 0 3px -4px 0;
+}
+
+.icons
+{
+     display: inline-block;
+     background-repeat: no-repeat;
+     background-image: url('../img/icons.png');
+}
+
+.bar .star
+{
+    width: 17px;
+    height: 17px;
+    background-position: -156px -93px;
+    margin: 0 3px -4px 0;
+}
+
+.bar .register
+{
+    font-size: 11px;
+    color: #343434;
+    line-height: 17px;
+    float: left;
+}
+
+.blog_title
+{
+    color: #000;
+    margin: 0 auto;
+    font: 60px 'Franklin Gothic', Arial, sans-serif;
+}
+
+.post_img
+{
+    position: relative;
+    margin: 0 0 17px 0;
+}
+
+.link_img
+{
+    text-decoration: none;
+    display: block;
+}
+
+.main_content
+{
+    width: 694px;
+    padding: 0 0 0 15px;
+}
+
+.record_block
+{
+    position: absolute;
+    z-index: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.33) 0%,rgba(0,0,0,0.94) 100%);
+    box-sizing: border-box;
+    width: 694px;
+    bottom: 4px;
+    padding: 17px 30px 12px 30px;
+}
+
+.record_block > .title
+{
+    margin: 0 0 18px 0;
+    cursor: pointer;
+}
+
+.post_title
+{
+    color: #fff;
+    font: 36px 'Franklin Gothic Book', Arial, sans-serif;
+    border-bottom: 1px #fff solid; 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.record_block > .title:hover .post_title
+{
+    border: 0; 
+}
+
+.note
+{
+    position: relative;
+    font: 12px Tahoma, 'Geneva CY', sans-serif;
+    color: #858585;
+    display: inline-block;
+}
+
+.note .time
+{
+    margin: 0 16px 0 0;
+    display: inline-block;
+}
+
+.note .link
+{
+    text-decoration: none;
+    color: #858585;
+    margin: 0 18px 0 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.note .link:hover
+{
+    color: #fff;
+}
+
+.user
+{
+    background-position: -19px -45px;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin: 0 7px -4px 0;
+}
+
+.flag
+{
+    background-position: -112px -103px;
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    margin: 0 7px -4px 0;
+}
+
+.text_content
+{
+    font: normal 14px/22.4px Verdana, 'Geneva CY', 'DejaVu Sans', sans-serif;
+    color: #000;
+    margin: 0 0 17px 0;
+}
+
+.text_decoration,
+.menu_links .link
+{
+    color: #354f71;
+    text-decoration: underline;
+    cursor:  pointer;
+    line-height: 15px;
+}
+
+.menu_links .link
+{
+    font: 14px/28px Verdana, 'Geneva CY', 'DejaVu Sans', sans-serif;
+}
+
+.text_decoration:hover,
+.menu_links .link:hover
+{
+    color: #0085cf;
+    text-decoration: none;
+}
+
+.text_content.last
+{
+    margin: 0 0 15px 0;
+}
+.menu_links
+{
+    list-style: disc;
+    padding: 0 0 0 37px;
+    margin: 0 0 11px 0;
+}
+
+.marker
+{
+    display: inline-block;
+    width: 23px;
+    height: 13px;
+    background-position: -47px -103px;
+    margin: 0 2px -2px 0;
+}
+
+.learn_more
+{
+    margin: 0 0 14px 0;
+    display: inline-block;
+    font: 14px/22.4px Verdana, 'Geneva CY', 'DejaVu Sans', sans-serif;
+}
+
+.tags
+{
+    margin: 0 0 16px 0;
+    font: 12px/18px Tahoma, 'Geneva CY', sans-serif;
+}
+
+.tags.selection
+{
+    margin: 0 0 19px 0;
+}
+
+.list_facebook
+{
+    width: 16px;
+    height: 22px;
+    background-position: 0 -52px;
+    margin: 0 0 -4px 0;
+}
+
+.list_twitter
+{
+    width: 18px;
+    height: 18px;
+    background-position: 0 -103px;
+    margin: 0 0 -7px 0;
+}
+
+.list_vkontakte
+{
+    width: 17px;
+    height: 22px;
+    background-position: 0 -78px;
+    margin: 0 0 -4px 0;
+}
+
+.list_networks
+{
+    display: inline-block;
+    background-image: url('../img/result.png');
+    background-repeat: no-repeat;
+}
+
+.social_count .link
+{
+    text-decoration: none;
+    color: #999;
+}
+
+.link .list_networks,
+.link.list_networks
+{
+    margin: 0 4px -10px 0;
+}
+
+.list_google
+{
+    width: 16px;
+    height: 20px;
+    background-position: 0 3px;
+    margin: 0 0 -4px 0;
+}
+
+.list_classmate
+{
+    width: 16px;
+    height: 21px;
+    background-position: -3px -23px;
+    margin: 0 0 -4px 0;
+}
+
+.comment_text
+{
+    background: #768fa5;
+    color: #fff;
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+.comment
+{
+     float: right;
+     margin: 0 12px 0 0;
+     font: 12px Tahoma, 'Geneva CY', sans-serif;
+     padding: 3px 0 0 0;
+}
+
+.contact_column,
+.networks,
+.main_content
+{
+    float: left;
+}
+
+.sidebar
+{
+    float: right;
+    padding: 21px 0 0 0;
+    width: 224px;
+}
+
+.widget_container.map > .map_google
+{
+    width: 210px;
+    height: 400px;
+    border: 0;
+}
+
+.comment_text:after
+{
+    content: '';
+    display: block;
+    border-left: 9px solid #768fa5;
+    border-bottom: 6px solid transparent;
+    position: absolute;
+    bottom: -4px;
+}
+
+.widget_container.post
+{
+    padding: 26px 25px 6px 25px;
+    border: 0;
+}
+
+.widget_container.post .list
+{
+    padding: 0 0 0 1px;
+}
+
+.widget_container.sub
+{
+    padding: 26px 21px 33px 22px;
+    border: 0;
+}
+
+.widget_container.map
+{
+    padding: 20px 7px 7px 7px;
+    border: 0;
+}
+
+.widget_container
+{
+    padding: 15px 12px 14px 13px;
+    border: 8px solid #eff0f2;
+    color: #354f71;
+    margin: 0 0 20px 0;
+    background: #eff0f2 url('../img/widget-bg.png');
+    font: 12px Tahoma, 'Geneva CY', sans-serif;
+}
+
+.widget_container > .title
+{
+    color: #354f71;
+    font: 17px 'Franklin Gothic', Arial, sans-serif;
+    display: block;
+    width: 185px;
+    margin: 0 0 15px 0;
+}
+
+.widget_container > .title.blog_search
+{
+    padding: 0 0 0 5px;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.widget_container > .title.map
+{
+    padding: 0 0 0 19px;
+    margin: 0 0 13px 0;
+    font-size: 18px;
+}
+
+.widget_container > .title.post
+{
+    padding: 0 0 0 2px;
+    margin: 0 0 21px 0;
+    font-size: 18px
+}
+
+input
+{
+    border: 1px solid #ccc;
+}
+
+.email
+{
+    height: 30px;
+    width: 167px;
+    border-radius: 4px;
+    padding: 0 8px;
+    box-shadow: inset 0 1px 4px 0 #eee;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+.subscribe
+{
+    background: linear-gradient(to bottom, #5574b8, #3c589d) #4a68ac;
+    color: #fff;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #6c8cd1;
+    margin: 0 0 16px 0;
+    font-size: 12px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.subscribe:hover
+{
+    background: linear-gradient(to bottom, #6488d1, #4667b6) #5579c4;
+}
+
+.subscribers
+{
+    display: inline-block;
+    font-size: 11px;
+    color: #768fa5;
+    font-style: italic;
+}
+
+.search
+{
+    height: 30px;
+    width: 145px;
+    border-radius: 4px;
+    padding: 0 8px;
+    float: left;
+    font-size: 14px;
+}
+
+.search_submit
+{
+    background: url('../img/search-button.png');
+    width: 30px;
+    height: 32px;
+    color: transparent;
+    text-indent: 32px;
+    float: right;
+    border: 0;
+    cursor: pointer;
+    margin: 0 -3px 0 0;
+}
+
+.popular_post .date
+{
+    color: #fff;
+    font-size: 11px;
+    background: #718f9f;
+    padding: 3px 5px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.popular_post .item
+{
+    display: block;
+}
+
+.popular_post .block_date
+{
+    margin: 0 0 9px 0;
+}
+
+.post_block.content
+{
+    padding: 65px 0 0 0;
+}
+
+.popular_post
+{
+    margin: 0 0 24px 0;
+}
+
+.post_block,
+.block
+{
+    padding: 20px 0 0 0;
+}
+
+.last_text
+{
+    margin: 0;
+}
+
+.navigation > .title
+{
+    font: 20px Tahoma, 'Geneva CY', sans-serif;
+    margin: 0 0 18px 0;
+    padding: 1px 0;
+    color: #323232;
+}
+
+.navigation_button
+{
+    padding: 4px 9px 3px 9px;
+    background: #3279bb;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+}
+
+.list_navigation .item
+{
+    margin: 0 2px 0 0;
+    float: left;
+}
+
+.list_navigation .link,
+.list_navigation .next
+{
+    display: block;
+    padding: 4px 9px 3px 9px;
+    text-decoration: none;
+    width: auto;
+    color: #fff;
+    background: #555;
+    font-size: 14px;
+}
+
+.list_navigation .link:hover
+{
+    background: #3279bb;
+}
+
+.navigation
+{
+    padding: 58px 0 14px 0;
+}
+
+.footer_navigation
+{
+    background: radial-gradient(#1a4988, #013c7b);
+}
+
+.container_menu .title
+{
+    font: normal 18px 'Franklin Gothic Book', Arial, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0 7px 0;
+}
+
+.container_menu .title.contact
+{
+    margin: 0 0 21px 0;
+}
+
+.container_menu
+{
+    padding: 38px 0 28px 40px;
+}
+
+.container_menu .link
+{
+    text-decoration: underline;
+    font-size: 11px;
+    color: #a8c5ff;
+    line-height: 16px;
+}
+
+.container_menu .item
+{
+    margin: 0 0 4px 0;
+}
+
+.container_column
+{
+    margin: 0 85px 0 0;
+    float: left;
+}
+
+.contact_column .item
+{
+    margin: 0 0 19px 0;
+}
+
+.container_menu .item:hover
+{
+    text-decoration: none;
+}
+
+.container_column > .portfolio
+{
+    margin: 0 0 28px 0;
+}
+
+.container_column.portfolio
+{
+    margin: 0 44px 0 0;
+}
+
+.container_column.company
+{
+    margin: 0 114px 0 0;
+}
+
+.footer_navigation .item
+{
+    font: 12px/18px Tahoma, 'Geneva CY', sans-serif;
+    color: #a8c5ff;
+}
+
+.icon_phone
+{
+    background-position: -200px -50px;
+    width: 26px;
+    height: 26px;
+    margin: 0 6px -9px 0;
+    display: inline-block;
+}
+
+.icon_email
+{
+    background-position: -150px -50px;
+    width: 26px;
+    height: 26px;
+    margin: 0 10px -7px 0;
+    display: inline-block;
+}
+
+.icon_user
+{
+    background-position: -200px 0;
+    width: 26px;
+    height: 26px;
+    margin: 0 6px -7px 0;
+    display: inline-block;
+}
+
+.phone_number
+{
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer
+{
+    font: 12px/18px Tahoma, 'Geneva CY', sans-serif;
+    background: url('../img/footer-bg.png');
+    padding: 20px 0 30px 0;
+}
+
+.block_travel .logo
+{
+    background: url('../img/footer-logo.png') no-repeat 0 0;
+    width: 143px;
+    height: 23px;
+    margin: 0 0 6px 0;
+}
+
+footer .container .text
+{
+    font-size: 11px;
+    color: #4858a8;
+    display: block;
+}
+
+footer .block_travel
+{
+    padding: 0 0 0 20px;
+    margin: 0 97px 0 0;
+    float: left;
+}
+
+.social .item
+{
+    margin: 0 4px 0 0;
+    display: inline-block;
+}
+
+.icon_list
+{
+    display: block;
+    height: 26px;
+    width: 26px;
+    background: url('../img/socialnetwork_new.png') no-repeat;
+}
+.icon_facebook
+{
+    background-position: 0 0;
+}
+
+.icon_twitter
+{
+    background-position: -34px 0;
+}
+
+.icon_vkontakte
+{
+    background-position: -68px 0;
+}
+.icon_facebook:hover
+{
+    background-position: 0 -27px;
+}
+
+.icon_twitter:hover
+{
+    background-position: -34px -27px;
+}
+
+.icon_vkontakte:hover
+{
+    background-position: -68px -27px;
+}
+
+.icon_classmet
+{
+    background-position: -136px 0;
+}
+
+.icon_google
+{
+    background-position: -170px 0;
+}
+
+.icon_classmet:hover
+{
+    background-position: -136px -27px;
+}
+
+.icon_google:hover
+{
+    background-position: -170px -27px;
+}
+
+.icon_youtube
+{
+    background-position: -204px 0;
+}
+
+.icon_youtube:hover
+{
+    background-position: -204px -27px;
+}
+
+.icon_instagram
+{
+    background-position: -238px 0;
+}
+
+.icon_instagram:hover
+{
+    background-position: -238px -27px;
+}
+
+.icon_slideshare 
+{
+    background-position: -272px 0;
+}
+
+.icon_slideshare:hover
+{
+    background-position: -272px -27px;
+}
+
+.icon_linkedin
+{
+    background-position: -102px 0;
+}
+
+.icon_linkedin:hover
+{
+    background-position: -102px -27px;
+}
+
+.cycounter
+{
+    cursor: pointer;
+    float: left;
+    padding: 5px 0 0 0;
+}
+
+.list.social
+{
+    margin: 0 78px 0 0;
+    float: left;
+    padding: 5px 0 0 0;
+}
+
+.windows_img
+{
+    float: right;
+    background: url(../img/windows.png) no-repeat 0 0;
+    width: 57px;
+    height: 72px;
+}
+
+.compatible
+{
+    text-align: right;
+    margin: 0 15px 0 0;
+    width: 130px;
+    float: left;
+    padding: 12px 0 0 0;
+}
+
+.windows_server
+{
+    color: #81afe2;
+    display: block;
+    font-size: 11px;
+}
+
+.partners
+{
+    float: right;
+    margin: 0 22px 0 0;
+}
+
+.open_block
+{
+    padding: 0 16px 15px 15px;
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    border-bottom: 2px solid #babdc9;
+    margin: 0 0 0 -1px;
+}
+
+.hide
+{
+    display: none;
+}
+
+.allocation
+{
+    border-right: 1px solid #babdc9;
+    border-left: 1px solid #babdc9;
+}
+
+.open_block .title
+{
+    color: #afb2c1;
+    font: normal 13px Tahoma, 'Geneva CY', sans-serif;
+    margin: 0 0 8px 0;
+    display: inline-block;
+}
+
+.open_block .name
+{
+    color: #646464;
+    font: normal 13px Tahoma, 'Geneva CY', sans-serif;
+}
+
+.free_number
+{
+    font: bold 13px Tahoma, 'Geneva CY', sans-serif;
+    color: #646464;
+}
+
+.open_block .phone
+{
+    margin: 0 0 8px 0;
+}
+
+.open_block .numbers
+{
+    border-bottom: 1px solid #ebecf0;
+    margin: 0 0 8px 0;
+}
+
+.close
+{
+    width: 12px;
+    height: 11px;
+    background-position:-212px -106px;
+    cursor: pointer;
+}
+
+.content_decoration
+{
+    background: #fff;
+}
+
+.show
+{
+    display: inline-block;
+}

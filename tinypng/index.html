@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TINIFY IMAGE</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="panda.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="content">
+      <h1><p><b>Загрузите ваше фото для сжатия</b></p></h1>
+      <form action="" method="post" name="loading" id="loading" enctype="multipart/form-data">
+        <input type="file" name="fileToUpload" id="fileToUpload"><br> 
+        <input type="submit" value="Загрузить"><br>
+      </form>
+    </div>
+    <div class="content content-img" id="contentImg">
+       <div>
+         <h2>Исходное изображение</h2>
+         <img src="img/loading.png" class="loading" alt="loading" id="originalImg" />
+         <div id="originalSize"></div>
+       </div>
+       <div>
+        <h2>Сжатое изображение</h2>
+        <img src="img/loading.png" class="loading" alt="loading" id="tinyImg" />
+        <div id="tinySize"></div>
+       </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="js/tiny.js"></script>
+  </body>  
+</html>
