@@ -1,8 +1,21 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+}
+
 .content
 {
     width: 80%;
     margin: auto;
     padding: 0;
+    text-align: center;
 }
 
 .open-block
@@ -14,9 +27,79 @@ body
 {
     width: 100%;
     margin: auto;
+    background-color: #bdecb6;
 }
 
 .content-img
 {
     display: none;
+}
+
+.loading-content
+{
+    display: none;
+}
+
+.content .title
+{
+    color: #193737;
+    padding: 58px 0 0 0;
+    font: bold 45px/34px Tahoma, 'Geneva CY', sans-serif;
+    margin: 0 0 60px 0;
+}
+
+.new-file
+{
+    margin: 0 auto 30px auto;
+    color: #5d9b9b;
+    font: normal 17px/18px Verdana, 'Geneva CY', 'DejaVu Sans', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.submit-button
+{
+    margin: 0 auto 20px auto;
+    padding: 10px 28px;
+    color: #f6f6f6;
+    font: normal 17px/18px Verdana, 'Geneva CY', 'DejaVu Sans', sans-serif;
+    display: block;
+    text-align: center;
+    background-color: #20603d;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.submit-button:hover
+{
+    background-color: #317F43;
+}
+
+.text-message
+{
+    margin: 0 20px 0 0;
+    color: #343e40;
+    font: normal 20px/18px Verdana, 'Geneva CY', 'DejaVu Sans', sans-serif;
+    text-align: center;
+}
+
+.text-message.size
+{
+    font: normal 15px/18px Verdana, 'Geneva CY', 'DejaVu Sans', sans-serif;
+}
+
+.title-new
+{
+    color: #1f3a3d;
+    font: bold 20px/34px Tahoma, 'Geneva CY', sans-serif;
+    margin: 0 0 10px 0;
+}
+
+.download
+{
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font: bold 15px/34px Tahoma, 'Geneva CY', sans-serif;
+    color: #000;
 }

@@ -7,15 +7,15 @@
 
     if (isset($_FILES[$fileElementName]))
     {
-        $originFileName = $_FILES[$fileElementName]['name'];
         $tmpFileName = $_FILES[$fileElementName]['tmp_name'];
-        $name = FILE_PATH_UNOPTIMIZED . $originFileName;
-        move_uploaded_file($tmpFileName, $name);
-        $sizeImg = filesize($name);
+        $sizeImg = filesize($tmpFileName);
         $oldSize = round($sizeImg / 1024, 1);
-        $source = \Tinify\fromFile($name);
-        $source->toFile(FILE_PATH_OPTIMIZED . "optimized.jpg");
-        $newSize = round(filesize(FILE_PATH_OPTIMIZED . "optimized.jpg") / 1024, 1);
+        $newImg = DIR_ . FILE_PATH_OPTIMIZED . $_FILES[$fileElementName]['name'];
+        $source = \Tinify\fromFile($tmpFileName);
+        $source->toFile($newImg);
+        $newSize = round(filesize($newImg) / 1024, 1);
+        $newPuth = FILE_PATH_OPTIMIZED . $_FILES[$fileElementName]['name'];
+        list($imgWidth, $imgHeight) = getimagesize($newImg);
     }
-    echo '{"oldImg" : "'. $originFileName .'", "oldSize" : "'. $oldSize .'", "newImg" : "optimized.jpg", "newSize" : "'. $newSize .'"}';
+    echo '{"oldSize" : "'. $oldSize .'", "newPuth" : "'. $newPuth .'", "newSize" : "'. $newSize .'", "imgWidth" : "'. $imgWidth .'"}';
  
