@@ -10,10 +10,17 @@
     font-size: 100%;
 }
 
+.clearfix:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .content
 {
     width: 80%;
-    margin: auto;
+    margin: 0 auto 40px auto;
     padding: 0;
     text-align: center;
 }
@@ -27,22 +34,27 @@ body
 {
     width: 100%;
     margin: auto;
-    background-color: #bdecb6;
 }
 
 .content-img
 {
     display: none;
+    width: 79%;
 }
 
-.loading-content
+.tiny-img
 {
-    display: none;
+    float: left;
+}
+
+.tiny-data
+{
+    float: right;
 }
 
 .content .title
 {
-    color: #193737;
+    color: #426138;
     padding: 58px 0 0 0;
     font: bold 45px/34px Tahoma, 'Geneva CY', sans-serif;
     margin: 0 0 60px 0;
@@ -53,31 +65,31 @@ body
     margin: 0 auto 30px auto;
     color: #5d9b9b;
     font: normal 17px/18px Verdana, 'Geneva CY', 'DejaVu Sans', sans-serif;
-    display: block;
+    display: none;
     text-align: center;
 }
 
 .submit-button
 {
-    margin: 0 auto 20px auto;
-    padding: 10px 28px;
+    margin: 0 auto;
+    padding: 6px 26px;
     color: #f6f6f6;
     font: normal 17px/18px Verdana, 'Geneva CY', 'DejaVu Sans', sans-serif;
     display: block;
     text-align: center;
-    background-color: #20603d;
+    background-color: #426138;
     cursor: pointer;
     border-radius: 10px;
 }
 
 .submit-button:hover
 {
-    background-color: #317F43;
+    background-color: #517943;
 }
 
 .text-message
 {
-    margin: 0 20px 0 0;
+    margin: 0 0 20px 0;
     color: #343e40;
     font: normal 20px/18px Verdana, 'Geneva CY', 'DejaVu Sans', sans-serif;
     text-align: center;
@@ -86,20 +98,138 @@ body
 .text-message.size
 {
     font: normal 15px/18px Verdana, 'Geneva CY', 'DejaVu Sans', sans-serif;
+    text-align: right;
 }
 
 .title-new
 {
     color: #1f3a3d;
-    font: bold 20px/34px Tahoma, 'Geneva CY', sans-serif;
+    517943
     margin: 0 0 10px 0;
+    text-align: left;
 }
 
 .download
 {
-    text-align: center;
+    text-align: right;
     cursor: pointer;
     text-decoration: none;
     font: bold 15px/34px Tahoma, 'Geneva CY', sans-serif;
-    color: #000;
+    background-color: #f6f6f6;
+    color: #1f3a3d;
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin: 0 0 15px 0;
+    display: inline-block;
+}
+
+.download-img
+{
+    float: right;
+    padding: 1px 16px;
+    margin: 0;
+    color: #f6f6f6;
+    background-color: #1f3a3d;
+}
+
+.new-content
+{
+    margin: 0 auto 20px auto;
+    background: #e1fddd;
+    border: 2px solid #1f3a3d;
+    padding: 10px 40px 20px 40px;
+}
+
+.box-dragndrop
+{
+    color: #426138;
+    font: bold 12px/14px Tahoma, 'Geneva CY', sans-serif;
+    display: none;
+    cursor: pointer;
+}
+
+.img-new-name
+{
+    color: #426138;
+    font: bold 14px/14px Tahoma, 'Geneva CY', sans-serif;
+    margin: 0 auto 10px auto;
+}
+
+.upload-file
+{
+    background-image: url("../img/upload.png");
+    width: 100px;
+    height: 85px;
+    margin: 0 auto;
+}
+
+.upload
+{
+    cursor: pointer;
+    padding: 0 0 30px 0;
+}
+
+.content-upload
+{
+    margin: 0 0 20px 0;
+}
+
+.upload:hover > .upload-file
+{
+    background-image: url("../img/upload-hover.png");
+}
+
+.upload:hover > .box-dragndrop
+{
+     color: #517943;
+}
+
+.box.has-advanced-upload 
+{
+    background-color: #bdecb6;
+    outline: 2px dashed f6f6f6;
+    outline-offset: -1px;
+}
+
+.box.has-advanced-upload .box-dragndrop 
+{
+    display: inline;
+    cursor: pointer;
+}
+
+.box
+{
+    font-size: 20px;
+    background-color: #c8dadf;
+    position: relative;
+    padding: 55px 0 30px 0;
+    margin: 0 auto 20px auto;
+}
+
+.box.has-advanced-upload
+{
+    outline: 2px dashed #f6f6f6;
+    outline-offset: -10px;
+
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+}
+
+.box.is-dragover
+{
+    outline-offset: -20px;
+    outline-color: #f6f6f6;
+    background-color: #bdecb6;
+}
+
+.box-dragndrop
+{
+  display: none;
+  cursor: pointer;
+}
+
+.box.has-advanced-upload .box-dragndrop
+{
+  display: inline;
+  cursor: pointer;
 }

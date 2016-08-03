@@ -36,7 +36,7 @@
   },
 
   "autoload": {
-    "files": ["lib/Tinify.php", "lib/Tinify/Exception.php", "../include/config.inc.php"],
+    "files": ["lib/Tinify.php", "lib/Tinify/Exception.php", "../include/config.inc.php", "../php/clear.php", "../php/compression.php"],
     "psr-4": {"Tinify\\": "lib/Tinify/"}
   }
 }
